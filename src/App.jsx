@@ -25,7 +25,7 @@ function App() {
   function Wea(prop){
 
   const city = prop;
-  const APIKEY = "a127619b02228ad2ee53bda273b6dabb";
+  const APIKEY = " ";
   const BASE_URL = ` https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKEY}&units=metric`;
 
   fetch(BASE_URL)
