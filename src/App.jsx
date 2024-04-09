@@ -12,8 +12,8 @@ function App() {
 
     /* API KEYS */
 
-  const weatherAPI = "a127619b02228ad2ee53bda273b6dabb";
-  const locationAPI = "f0c7b41abdd74f61b131f00066c10382";
+  const weatherAPI = "";
+  const locationAPI = "";
 
   /* Creating Date Format */
 
