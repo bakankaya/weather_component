@@ -78,12 +78,12 @@ function getWeather(cityName) {
   //     getWeather(document.getElementById("input").value);
   //     document.getElementById("input").value = "";
   //   };
-  useEffect(()=>{
-  const bar = document.querySelector("#input");
-  bar.addEventListener('keyup',
-    (e) =>{if(e.code ==='Enter'){
-      searchWeather()}});
-    })
+  // useEffect(()=>{
+  // const bar = document.querySelector("#input");
+  // bar.addEventListener('keyup',
+  //   (e) =>{if(e.code ==='Enter'){
+  //     searchWeather()}});
+  //   })
 
   return (
     <div className="weather-app">

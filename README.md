@@ -1,14 +1,22 @@
 # A Weather Component
 
-This is a single file component to be used in other projects, adds an applet to show the weather conditions in the desired location.
+![weather_app_Screenshot](./src/assets/weather_app.png)
 
-To get the weather data, change the APIKEY to your own. You can get a free one from [OpenWeather](https://openweathermap.org/api).
+Simple weather app made with JavaScript to show the weather conditions from the browser location or in the desired location.
 
-There is a pure JavaScript version of this as well, you can find it in my other [repo](#).
+The design is inspired from old digital watches *like Casio FW-91W*.
 
-To Do:
-- Change the naming of elements to meaningful ones, generally clean the code
-- Set a better CSS
-- Using browser IP to locate default city
-- Write the blog post about it
+There is also pure JS version of it, which can be found at my other repo [weather_app](https://github.com/bakankaya/weather_app).
 
+To use you need to get your own API keys from listed services (*for free*).
+
+---
+Used Sources:
+
+- Weather information is from [OpenWeather](https://openweathermap.org/api).
+
+- Automatic location finding is made with [Geoapify](https://www.geoapify.com/).
+
+- The font is [Digital-7](https://www.1001fonts.com/digital-7-font.html) By Style-7 from [1001fonts](https://www.1001fonts.com/users/style-7/).
+
+- Favicon is [Clouds](https://icons8.com/icon/QdG76489aLZo/clouds) icon from [Icons8](https://icons8.com).
